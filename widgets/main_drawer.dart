@@ -6,6 +6,7 @@ class MainDrawer extends StatelessWidget {
   //constructor accepting a callback function to handle screen selection
 
   final void Function(String identifier) onSelectScreen;
+  // A function that gets triggered when the user selects a screen, taking a string as an identifier for the screen.
   @override
   Widget build(BuildContext context) {
     return Drawer(
