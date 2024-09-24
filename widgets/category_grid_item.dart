@@ -16,6 +16,7 @@ class CategoryGridItem extends StatelessWidget {
   Widget build(BuildContext context) {
     //The build method returns the widget's layout
     return InkWell(
+      //InkWell makes the wiget tappable and gives visual feedback
       onTap:onSelectedCategory,
       splashColor: Theme.of(context).primaryColor,
       borderRadius: BorderRadius.circular(16),
