@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
 class MainDrawer extends StatelessWidget {
+  //Stateless widget that represent a custom navigation drawer
   const MainDrawer({super.key, required this.onSelectScreen});
+  //constructor accepting a callback function to handle screen selection
 
   final void Function(String identifier) onSelectScreen;
   @override
