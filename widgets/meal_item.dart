@@ -12,7 +12,7 @@ class MealItem extends StatelessWidget {
 
   final Meal meal;
   final void Function(BuildContext context, Meal meal) onSelectMeal;
-
+  // Getter method to format the complexity text (capitalizes the first letter of the complexity).
   String get complexityText {
     return meal.complexity.name[0].toUpperCase() +
         meal.complexity.name.substring(1);
