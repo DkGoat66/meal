@@ -17,7 +17,7 @@ class MealItem extends StatelessWidget {
     return meal.complexity.name[0].toUpperCase() +
         meal.complexity.name.substring(1);
   }
-
+  // Getter method to format the affordability text (capitalizes the first letter of the affordability).
   String get affordabilityText {
     return meal.affordability.name[0].toUpperCase() +
         meal.affordability.name.substring(1);
