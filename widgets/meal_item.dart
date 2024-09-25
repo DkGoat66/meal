@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:meals/models/meal.dart';
 import 'package:meals/widgets/meal_item_trait.dart';
 import 'package:transparent_image/transparent_image.dart';
-
+//Stateless widget representing an individual meal item.
 class MealItem extends StatelessWidget {
   const MealItem({
     super.key,
