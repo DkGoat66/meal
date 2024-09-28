@@ -2,6 +2,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:meals/models/meal.dart';
 //A custom StateNotifier that manages a list of favorite meals
 class FavoriteMealsNotifier extends StateNotifier<List<Meal>> {
+  // Constructor initializes the list of favorite meals as an empty list
   FavoriteMealsNotifier() : super([]);
 
   bool toggleMealFavoriteStatus(Meal meal) {
