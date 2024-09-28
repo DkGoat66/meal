@@ -18,7 +18,7 @@ class FavoriteMealsNotifier extends StateNotifier<List<Meal>> {
     }
   }
 }
-
+// A riverport provider that exposes the FavoriteMealNotifers and its state
 final favoriteMealsProvider =
     StateNotifierProvider<FavoriteMealsNotifier, List<Meal>>((ref) {
   return FavoriteMealsNotifier();
