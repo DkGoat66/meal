@@ -5,6 +5,7 @@ class FavoriteMealsNotifier extends StateNotifier<List<Meal>> {
   // Constructor initializes the list of favorite meals as an empty list
   FavoriteMealsNotifier() : super([]);
 
+  //Method to toggle the favorite status of a meal
   bool toggleMealFavoriteStatus(Meal meal) {
     final mealIsFavorite = state.contains(meal);
 
