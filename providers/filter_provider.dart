@@ -33,7 +33,7 @@ final filtersProvider =
     StateNotifierProvider<FiltersNotifer, Map<Filter, bool>>(
   (ref) => FiltersNotifer(),
 );
-
+// Declares a provider for the FiltersNotifier to expose its state and methods
 final filteredMealsProvider = Provider((ref) {
   final meals = ref.watch(mealsProvider);
   final activeFilters = ref.watch(filtersProvider);
