@@ -7,7 +7,7 @@ enum Filter {
   vegetarian,
   vegan,
 }
-
+//enum to represent different type of dietary filters
 class FiltersNotifer extends StateNotifier<Map<Filter, bool>> {
   FiltersNotifer()
       : super({
