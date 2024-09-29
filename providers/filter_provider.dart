@@ -28,7 +28,7 @@ class FiltersNotifer extends StateNotifier<Map<Filter, bool>> {
     state = choosenFilters;
   }
 }
-
+//method to update all filters at once with a map of chosen filters
 final filtersProvider =
     StateNotifierProvider<FiltersNotifer, Map<Filter, bool>>(
   (ref) => FiltersNotifer(),
