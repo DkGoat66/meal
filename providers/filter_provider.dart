@@ -16,7 +16,8 @@ class FiltersNotifer extends StateNotifier<Map<Filter, bool>> {
           Filter.vegetarian: false,
           Filter.vegan: false,
         });
-
+  
+  // Constructor initializes the state with all filters set to 'false' (inactive)
   void setFilter(Filter filter, bool isActive) {
     state = {
       ...state,
