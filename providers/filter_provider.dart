@@ -23,7 +23,7 @@ class FiltersNotifer extends StateNotifier<Map<Filter, bool>> {
       filter: isActive,
     };
   }
-
+//method to update a single filter in the state
   void setFilters(Map<Filter, bool> choosenFilters) {
     state = choosenFilters;
   }
