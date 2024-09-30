@@ -54,6 +54,7 @@ final filteredMealsProvider = Provider((ref) {
     }
     if (activeFilters[Filter.vegan]! && !meal.isVegan) {
       return false;
+      // Excludes the meal if it's not vegan and vegan filter is active
     }
     return true;
   }).toList();
