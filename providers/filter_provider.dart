@@ -42,6 +42,8 @@ final filteredMealsProvider = Provider((ref) {
   return meals.where((meal) {
     if (activeFilters[Filter.glutenFree]! && !meal.isGlutenFree) {
       return false;
+      // Excludes the meal if it's not gluten-free and gluten-free filter is active
+
     }
     if (activeFilters[Filter.lactoseFree]! && !meal.isLactoseFree) {
       return false;
