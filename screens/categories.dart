@@ -8,7 +8,7 @@ import 'package:meals/widgets/category_grid_item.dart';
 class CategoriesScreen extends StatefulWidget {
   const CategoriesScreen({
     super.key,
-    required this.availableMeals,
+    required this.availableMeals, // List of available meals passed as a parameter.
   });
 
   final List<Meal> availableMeals;
