@@ -45,7 +45,7 @@ class _CategoriesScreenState extends State<CategoriesScreen>
               category.id,
             ))
         .toList();
-
+// Navigating to the MealScreen with the filtered meals.
     Navigator.of(context).push(MaterialPageRoute(
       builder: (ctx) => MealsScreen(
         title: category.title,
