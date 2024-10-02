@@ -11,7 +11,7 @@ class CategoriesScreen extends StatefulWidget {
     required this.availableMeals, // List of available meals passed as a parameter.
   });
 
-  final List<Meal> availableMeals;
+  final List<Meal> availableMeals; // Storing the list of available meals.
 
   @override
   State<CategoriesScreen> createState() => _CategoriesScreenState();
