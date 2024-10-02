@@ -38,7 +38,7 @@ class _CategoriesScreenState extends State<CategoriesScreen>
     _animationController.dispose();
     super.dispose();
   }
-
+//Function to handle category selection
   void _selectCategory(BuildContext context, Category category) {
     final filteredMeals = widget.availableMeals
         .where((meal) => meal.categories.contains(
