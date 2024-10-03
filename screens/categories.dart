@@ -25,6 +25,7 @@ class _CategoriesScreenState extends State<CategoriesScreen>
   @override
   void initState() {
     super.initState();
+// Initializing the animation controller with a 300ms duration and bounds between 0 and 1.
     _animationController = AnimationController(
       vsync: this,
       duration: const Duration(milliseconds: 300),
