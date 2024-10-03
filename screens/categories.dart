@@ -63,6 +63,7 @@ class _CategoriesScreenState extends State<CategoriesScreen>
       animation: _animationController,
       child: GridView(
         padding: const EdgeInsets.all(24),
+        // Defining a grid layout with 2 columns and spacing.
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 2,
           childAspectRatio: 3 / 2,
