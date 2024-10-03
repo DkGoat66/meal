@@ -37,6 +37,7 @@ class _CategoriesScreenState extends State<CategoriesScreen>
 
   @override
   void dispose() {
+      // Disposing the animation controller when the widget is removed from the tree.
     _animationController.dispose();
     super.dispose();
   }
