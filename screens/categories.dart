@@ -16,7 +16,7 @@ class CategoriesScreen extends StatefulWidget {
   @override
   State<CategoriesScreen> createState() => _CategoriesScreenState();
 }
-
+// State object for CategoriesScreen.
 class _CategoriesScreenState extends State<CategoriesScreen>
     with SingleTickerProviderStateMixin {
   late AnimationController _animationController;
