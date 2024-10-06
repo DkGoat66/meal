@@ -4,6 +4,7 @@ import 'package:meals/providers/filter_provider.dart';
 // import 'package:meals/screens/tabs.dart';
 // import 'package:meals/widgets/main_drawer.dart';
 
+//FilterSCreen is a consumerWidget which listens to the riverpod providers
 class FilterScreen extends ConsumerWidget {
   const FilterScreen({
     super.key,
