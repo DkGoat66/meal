@@ -18,7 +18,9 @@ class FilterScreen extends ConsumerWidget {
       appBar: AppBar(
         title: const Text('Your Filters'),
       ),
+
       body: Column(children: [
+        //First filter: Gluten-free option
         SwitchListTile(
           value: activeFilters[Filter.glutenFree]!,
           onChanged: (isChecked) {
