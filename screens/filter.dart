@@ -43,6 +43,7 @@ class FilterScreen extends ConsumerWidget {
           activeColor: Theme.of(context).colorScheme.tertiary,
           contentPadding: const EdgeInsets.only(left: 34, right: 22),
         ),
+        //Second filter: Lactose-free option 
         SwitchListTile(
           value: activeFilters[Filter.lactoseFree]!,
           onChanged: (isChecked) {
