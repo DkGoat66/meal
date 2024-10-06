@@ -12,6 +12,7 @@ class FilterScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    //Access the current filter values from the provider
     final activeFilters = ref.watch(filtersProvider);
     return Scaffold(
       appBar: AppBar(
