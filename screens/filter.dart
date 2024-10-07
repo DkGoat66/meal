@@ -66,6 +66,7 @@ class FilterScreen extends ConsumerWidget {
           activeColor: Theme.of(context).colorScheme.tertiary,
           contentPadding: const EdgeInsets.only(left: 34, right: 22),
         ),
+        //Third Filter: Vegetarian
         SwitchListTile(
           value: activeFilters[Filter.vegetarian]!,
           onChanged: (isChecked) {
