@@ -9,7 +9,7 @@ class MealDetailsScreen extends ConsumerWidget {
     super.key,
     required this.meal,
   });
-
+// The meal object contains the details such as the title, image, ingredients, and steps.
   final Meal meal;
 
   @override
