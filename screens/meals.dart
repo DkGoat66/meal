@@ -27,6 +27,7 @@ class MealsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    //a fallback widget in case the meal list is empty
     Widget content = Center(
       child: Column(
         mainAxisSize: MainAxisSize.min,
