@@ -48,7 +48,7 @@ class MealsScreen extends StatelessWidget {
         ],
       ),
     );
-
+    // If the meals list is not empty, replace the fallback content with a ListView
     if (meals.isNotEmpty) {
       content = ListView.builder(
         itemCount: meals.length,
