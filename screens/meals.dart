@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:meals/models/meal.dart';
 import 'package:meals/screens/meal_details.dart';
 import 'package:meals/widgets/meal_item.dart';
-
+// Defining a stateless weidget 'MealsSCreen'
 class MealsScreen extends StatelessWidget {
   const MealsScreen({
     super.key,
