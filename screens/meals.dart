@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:meals/models/meal.dart';
 import 'package:meals/screens/meal_details.dart';
 import 'package:meals/widgets/meal_item.dart';
-// Defining a stateless weidget 'MealsSCreen'
+// Defining a stateless weidget 'MealsSCreen' when meal is selected
 class MealsScreen extends StatelessWidget {
   const MealsScreen({
     super.key,
@@ -14,7 +14,7 @@ class MealsScreen extends StatelessWidget {
   final String? title;
   final List<Meal> meals;
 
-
+// Method to navigate to the 'MealDetailsScreen' when meal
   void selectMeal(BuildContext context, Meal meal) {
     Navigator.of(context).push(
       MaterialPageRoute(
