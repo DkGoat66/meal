@@ -25,7 +25,7 @@ class TabsScreen extends ConsumerStatefulWidget {
 // The state for the TabsScreen widget
 class _TabsScreenState extends ConsumerState<TabsScreen> {
   int _selectedPageIndex = 0;
-
+// Method to handle tab selection 
   void _selectPage(int index) {
     setState(() {
       _selectedPageIndex = index;
