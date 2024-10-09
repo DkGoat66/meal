@@ -7,7 +7,7 @@ import 'package:meals/widgets/main_drawer.dart';
 
 import 'package:meals/providers/favorites__provider.dart';
 import 'package:meals/providers/filter_provider.dart';
-
+//constants to hold the initial filter settings 
 const kInitialFilters = {
   Filter.glutenFree: false,
   Filter.lactoseFree: false,
