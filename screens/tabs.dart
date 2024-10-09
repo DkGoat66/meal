@@ -14,7 +14,7 @@ const kInitialFilters = {
   Filter.vegetarian: false,
   Filter.vegan: false,
 };
-
+// A stateful widget that uses a consumer to interact with providers
 class TabsScreen extends ConsumerStatefulWidget {
   const TabsScreen({super.key});
   @override
