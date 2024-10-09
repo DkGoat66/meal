@@ -22,7 +22,7 @@ class TabsScreen extends ConsumerStatefulWidget {
     return _TabsScreenState();
   }
 }
-
+// The state for the TabsScreen widget
 class _TabsScreenState extends ConsumerState<TabsScreen> {
   int _selectedPageIndex = 0;
 
