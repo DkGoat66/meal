@@ -47,7 +47,7 @@ class _TabsScreenState extends ConsumerState<TabsScreen> {
   Widget build(BuildContext context) {
         // Watch the filtered meals provider for available meals
     final availableMeals = ref.watch(filteredMealsProvider);
-
+    // Default active page is CategoriesScreen
     Widget activePage = CategoriesScreen(
       availableMeals: availableMeals,
     );
