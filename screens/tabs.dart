@@ -60,7 +60,7 @@ class _TabsScreenState extends ConsumerState<TabsScreen> {
       );
       activePageTitle = 'Your Favorites';
     }
-
+    // Build the main UI of the application
     return Scaffold(
       appBar: AppBar(
         title: Text(activePageTitle),
