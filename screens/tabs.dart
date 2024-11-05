@@ -68,6 +68,7 @@ class _TabsScreenState extends ConsumerState<TabsScreen> {
       drawer: MainDrawer(
         onSelectScreen: _setScreen,
       ),
+      // calling activepage
       body: activePage,
       // Bottom navigationBar
       bottomNavigationBar: BottomNavigationBar(
