@@ -69,6 +69,7 @@ class _TabsScreenState extends ConsumerState<TabsScreen> {
         onSelectScreen: _setScreen,
       ),
       body: activePage,
+      // Bottom navigationBar
       bottomNavigationBar: BottomNavigationBar(
         onTap: _selectPage,
         currentIndex: _selectedPageIndex,
