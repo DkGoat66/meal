@@ -1,6 +1,6 @@
 //import flutter material 
 import 'package:flutter/material.dart';
-
+//stateless widget for mealIteamTrait
 class MealItemTrait extends StatelessWidget {
   const MealItemTrait({
     super.key,
