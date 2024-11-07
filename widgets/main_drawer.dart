@@ -45,6 +45,7 @@ class MainDrawer extends StatelessWidget {
               ],
             ),
           ),
+          //First list item for navigating to 'Meals' screen
           ListTile(
             leading: Icon(
               Icons.restaurant,
