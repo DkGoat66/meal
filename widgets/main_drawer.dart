@@ -63,6 +63,7 @@ class MainDrawer extends StatelessWidget {
               onSelectScreen('meals');
             },
           ),
+          //Second list item for navigating to 'Meals' screen
           ListTile(
             leading: Icon(
               Icons.settings,
