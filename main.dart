@@ -19,7 +19,7 @@ void main() {
     child: App(),
   ));
 }
-
+//Define the main app widget
 class App extends StatelessWidget {
   const App({super.key});
 
