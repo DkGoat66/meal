@@ -5,7 +5,7 @@ enum Complexity {
   challenging,
   hard,
 }
-
+//Enum to represent the affordability of a meal
 enum Affordability {
   affordable,
   pricey,
