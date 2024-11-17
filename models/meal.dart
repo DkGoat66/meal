@@ -1,4 +1,4 @@
-
+//Enum to represent the complexity level of a meal
 
 enum Complexity {
   simple,
