@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 //stateless widget for mealIteamTrait
 class MealItemTrait extends StatelessWidget {
+   // Constructor for the MealItemTrait widget
   const MealItemTrait({
     super.key,
     required this.icon,
