@@ -13,6 +13,7 @@ class MealItemTrait extends StatelessWidget {
   final String label;
   @override
   Widget build(BuildContext context) {
+     // The build method creates the widget's UI
     return Row(
       children: [
         Icon(icon, size: 17, color: Colors.white,),
