@@ -5,6 +5,7 @@ import 'package:meals/widgets/meal_item_trait.dart';
 import 'package:transparent_image/transparent_image.dart';
 //Stateless widget representing an individual meal item.
 class MealItem extends StatelessWidget {
+// Constructor for initializing the meal data and callback function
   const MealItem({
     super.key,
     required this.meal,
