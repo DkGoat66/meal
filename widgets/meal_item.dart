@@ -27,6 +27,7 @@ class MealItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    //Builds the UI for the meal item card
     return Card(
       margin: const EdgeInsets.all(8),
       shape: RoundedRectangleBorder(
