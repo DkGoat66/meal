@@ -26,7 +26,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: theme,
+      theme: theme, // Apply the custom theme to the app
       home: const TabsScreen(),
     );
   }
