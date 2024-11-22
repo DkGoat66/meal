@@ -13,6 +13,7 @@ class MealsScreen extends StatelessWidget {
   });
 
   final String? title;
+  //List of meals to display 
   final List<Meal> meals;
 
 // Method to navigate to the 'MealDetailsScreen' when meal
