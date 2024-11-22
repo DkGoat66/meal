@@ -1,3 +1,4 @@
+// added necesary imports
 import 'package:flutter/material.dart';
 import 'package:meals/models/meal.dart';
 import 'package:meals/screens/meal_details.dart';
