@@ -16,6 +16,7 @@ class MealItemTrait extends StatelessWidget {
      // The build method creates the widget's UI
     return Row(
       children: [
+         //Display the icon with a fixed size and white color 
         Icon(icon, size: 17, color: Colors.white,),
         const SizedBox(width: 6),
         Text(label, style: const TextStyle(color: Colors.white),),
