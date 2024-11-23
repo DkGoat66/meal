@@ -8,7 +8,7 @@ class MealItemTrait extends StatelessWidget {
     required this.icon,
     required this.label,
   });
-
+//Icon to display for the trait
   final IconData icon;
   final String label;
   @override
