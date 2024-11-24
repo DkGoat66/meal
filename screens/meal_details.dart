@@ -20,6 +20,7 @@ class MealDetailsScreen extends ConsumerWidget {
     final isFavorite = favoriteMeals.contains(meal);
     return Scaffold(
         appBar: AppBar(
+          // Display the title of the meal in the AppBar
           title: Text(meal.title),
           actions: [
             IconButton(
