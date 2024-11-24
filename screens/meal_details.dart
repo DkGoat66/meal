@@ -14,7 +14,9 @@ class MealDetailsScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    // Access the list of favorite meals from the riverpod provider
     final favoriteMeals = ref.watch(favoriteMealsProvider);
+    
     final isFavorite = favoriteMeals.contains(meal);
     return Scaffold(
         appBar: AppBar(
