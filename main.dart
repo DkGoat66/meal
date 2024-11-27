@@ -27,7 +27,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: theme, // Apply the custom theme to the app
-      home: const TabsScreen(),
+      home: const TabsScreen(), // Set the initial screen to the TabScreen widget
     );
   }
 }
