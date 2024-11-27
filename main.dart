@@ -21,7 +21,7 @@ void main() {
 }
 //Define the main app widget
 class App extends StatelessWidget {
-  const App({super.key});
+  const App({super.key}); // Stateless widget constructor
 
   @override
   Widget build(BuildContext context) {
