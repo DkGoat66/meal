@@ -1,4 +1,4 @@
-//import flutter material 
+//import packages
 import 'package:flutter/material.dart';
 //stateless widget for mealIteamTrait
 class MealItemTrait extends StatelessWidget {
